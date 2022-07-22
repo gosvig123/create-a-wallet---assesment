@@ -1,0 +1,20 @@
+{
+  "name": "assessment-6-wallet",
+  "version": "1.1.0",
+  "description": "",
+  "repository": "git@github.com:arol-dev/assessment-6-wallet.git",
+  "author": "Arol <arol.vinolas@gmail.com>",
+  "license": "See License in LICENSE.md",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-remove-code": "^3.0.4",
+    "prettier": "^2.6.2",
+    "prettier-eslint": "^15.0.0"
+  },
+  "scripts": {},
+  "dependencies": {
+    "del": "^7.0.0"
+  },
+  "type": "module"
+}
