@@ -29,9 +29,7 @@ Create and set up a database using Prisma ORM.
 
 > You can find a Postman collection in the root folder of the exercise.
 
-> Implement your solution in the `app.js` file. You don't need to create to call `listen; because of the testing technique, the app and the express server had to be in different files.
-
-> You can run the tests to ensure your server works correctly before going to the front-end step. Run `yarn test` in the server folder to run them.
+> Implement your solution in the `app.js` file. You don't need to create to call `listen`; In the `index.js` file I'm importing the app and calling it already.
 
 Implement the following endpoints:
 
@@ -170,4 +168,4 @@ Implement functionality first, then focus on design.
 
 - Add the current balance to the response of the endpoint for new transactions so the render of the new balance is more accurate.
 - Allow the user to annotate the transaction by adding a text note.
-- Allow the user to categorize the transactions and add a filter at the top of the transaction list.
+- Allow the user to categorize the transactions and add a filter form (search by category and note) at the top of the transaction list.
