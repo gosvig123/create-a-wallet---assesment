@@ -1,0 +1,20 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Balance {
+  id            Int      @id @default(autoincrement())
+  balance       Int      @default(0)
+  currency      String   @default("EUR")
+  post          Int?
+  withdrawMoney Int?
+  time          DateTime @default(now())
+}
